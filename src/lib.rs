@@ -46,9 +46,8 @@ pub fn default_task(
         fn #setup_name () {
             let mut tasks = tinyrick_models::TASKS.lock().unwrap();
             tasks.insert(#name_str, Box::new(#name));
-
             let mut default_task = tinyrick_models::DEFAULT_TASK.lock().unwrap();
-            *default_task = Some(Box::new(#name));
+            *default_task = Some(#name_str);
         }
 
         #input

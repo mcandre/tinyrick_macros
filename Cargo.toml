@@ -13,7 +13,7 @@ ctor = "0.6.2"
 proc-macro2 = "1.0.103"
 quote = "1.0.42"
 syn = { version = "2.0.111", features = ["full"] }
-tinyrick_models = "0.0.1"
+tinyrick_models = "0.0.2"
 
 [lib]
 name = "tinyrick_macros"
