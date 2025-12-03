@@ -21,7 +21,7 @@ pub fn task(
     proc_macro::TokenStream::from(quote::quote! {
         #[::ctor::ctor]
         fn #setup_name () {
-            let mut tasks = tinyrick_models::TASKS.lock().unwrap();
+            let mut tasks = ::tinyrick_models::TASKS.lock().unwrap();
             tasks.insert(#name_str, Box::new(#name));
         }
 
@@ -44,9 +44,9 @@ pub fn default_task(
     proc_macro::TokenStream::from(quote::quote! {
         #[::ctor::ctor]
         fn #setup_name () {
-            let mut tasks = tinyrick_models::TASKS.lock().unwrap();
+            let mut tasks = ::tinyrick_models::TASKS.lock().unwrap();
             tasks.insert(#name_str, Box::new(#name));
-            let mut default_task = tinyrick_models::DEFAULT_TASK.lock().unwrap();
+            let mut default_task = ::tinyrick_models::DEFAULT_TASK.lock().unwrap();
             *default_task = Some(#name_str);
         }
 
