@@ -1,5 +1,7 @@
 # tinyrick_macros: proc macros for scheduling development tasks
 
+[![Donate](https://img.shields.io/badge/GUMROAD-36a9ae?style=flat&logo=gumroad&logoColor=white)](https://mcandre.gumroad.com/)
+
 # ABOUT
 
 tinyrick_macros provides proc macros for scheduling development tasks.
