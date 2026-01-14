@@ -1,22 +1,10 @@
 # tinyrick_macros: proc macros for scheduling development tasks
 
-[![Donate](https://img.shields.io/badge/GUMROAD-36a9ae?style=flat&logo=gumroad&logoColor=white)](https://mcandre.gumroad.com/)
+[![Crates.io Downloads (latest version)](https://img.shields.io/crates/dv/tinyrick_macros?label=crate%20downloads)](https://crates.io/crates/tinyrick_macros) [![docs.rs](https://img.shields.io/docsrs/tinyrick_macros)](https://docs.rs/tinyrick_macros/latest/tinyrick_macros/) [![license](https://img.shields.io/badge/license-BSD-3)](LICENSE.md) [![Donate](https://img.shields.io/badge/GUMROAD-36a9ae?style=flat&logo=gumroad&logoColor=white)](https://mcandre.gumroad.com/)
 
 # ABOUT
 
 tinyrick_macros provides proc macros for scheduling development tasks.
-
-# CRATE
-
-https://crates.io/crates/tinyrick_macros
-
-# API DOCUMENTATION
-
-https://docs.rs/tinyrick_macros/latest/tinyrick_macros/
-
-# LICENSE
-
-BSD-2-Clause
 
 # RUNTIME REQUIREMENTS
 
