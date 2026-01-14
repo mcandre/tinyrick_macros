@@ -1,6 +1,6 @@
 # tinyrick_macros: proc macros for scheduling development tasks
 
-[![Crates.io Downloads (latest version)](https://img.shields.io/crates/dv/tinyrick_macros?label=crate%20downloads)](https://crates.io/crates/tinyrick_macros) [![docs.rs](https://img.shields.io/docsrs/tinyrick_macros)](https://docs.rs/tinyrick_macros/latest/tinyrick_macros/) [![license](https://img.shields.io/badge/license-BSD-3)](LICENSE.md) [![Donate](https://img.shields.io/badge/GUMROAD-36a9ae?style=flat&logo=gumroad&logoColor=white)](https://mcandre.gumroad.com/)
+[![Crates.io Downloads (latest version)](https://img.shields.io/crates/dv/tinyrick_macros?label=crate%20downloads)](https://crates.io/crates/tinyrick_macros) [![docs.rs](https://img.shields.io/docsrs/tinyrick_macros)](https://docs.rs/tinyrick_macros/latest/tinyrick_macros/) [![Test](https://github.com/mcandre/tinyrick_macros/actions/workflows/test.yml/badge.svg)](https://github.com/mcandre/tinyrick_macros/actions/workflows/test.yml) [![license](https://img.shields.io/badge/license-BSD-3)](LICENSE.md) [![Donate](https://img.shields.io/badge/GUMROAD-36a9ae?style=flat&logo=gumroad&logoColor=white)](https://mcandre.gumroad.com/)
 
 # ABOUT
 
