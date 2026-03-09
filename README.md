@@ -6,19 +6,17 @@
 
 tinyrick_macros provides proc macros for scheduling development tasks.
 
-# RUNTIME REQUIREMENTS
+# SYSTEM REQUIREMENTS
 
 * [Rust](https://www.rust-lang.org/en-US/)
 
 ## Recommended
 
 * [ASDF](https://asdf-vm.com/) 0.18 (run `asdf reshim` after each Rust application binary installation)
-* [direnv](https://direnv.net/) 2
-* [cargo-cache](https://crates.io/crates/cargo-cache)
 
-# CONTRIBUTING
+# DEVELOPMENT
 
-For more details on developing tinyrick itself, see [DEVELOPMENT.md](DEVELOPMENT.md).
+For details on developing tinyrick_macros, see our [development guide](DEVELOPMENT.md).
 
 # SEE ALSO
 

@@ -1,6 +1,8 @@
-# OVERVIEW
+# DEVELOPMENT GUIDE
 
-tinyrick's own compilation process is compatible with standard `cargo`. We wrap some common workflows with `build` tasks for convenience.
+tinyrick_macros follows standard, cargo based operations for compiling and unit testing Rust code.
+
+For advanced operations, such as linting, we further supplement with some software industry tools.
 
 # BUILDTIME REQUIREMENTS
 
@@ -11,24 +13,7 @@ tinyrick's own compilation process is compatible with standard `cargo`. We wrap 
 
 ## Recommended
 
-* a host capable of running musl/Linux containers (e.g. a GNU/Linux, musl/Linux, macOS, or Windows host)
-* a UNIX-like environment (e.g. [WSL](https://learn.microsoft.com/en-us/windows/wsl/))
-* [Docker First Aid Kit](https://github.com/mcandre/docker-first-aid-kit)
-* Apply `DOCKER_DEFAULT_PLATFORM` = `linux/amd64` environment variable
 * [ASDF](https://asdf-vm.com/) 0.18 (run `asdf reshim` after provisioning)
-* [direnv](https://direnv.net/) 2
-
-# INSTALL BINARY ARTIFACTS FROM LOCAL SOURCE
-
-```console
-$ make install
-```
-
-# UNINSTALL BINARY ARTIFACTS
-
-```console
-$ make uninstall
-```
 
 # SECURITY AUDIT
 
@@ -46,12 +31,6 @@ $ make build
 
 ```console
 $ make publish
-```
-
-# PORT
-
-```console
-$ make port
 ```
 
 # CLEAN
