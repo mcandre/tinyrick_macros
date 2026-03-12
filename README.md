@@ -4,7 +4,7 @@
 
 # ABOUT
 
-tinyrick_macros provides proc macros for scheduling development tasks.
+tinyrick_macros provides proc macros to schedule development tasks for the [tinyrick](https://github.com/mcandre/tinyrick) task runner.
 
 # SYSTEM REQUIREMENTS
 
@@ -17,7 +17,3 @@ tinyrick_macros provides proc macros for scheduling development tasks.
 # DEVELOPMENT
 
 For details on developing tinyrick_macros, see our [development guide](DEVELOPMENT.md).
-
-# SEE ALSO
-
-* [tinyrick](https://github.com/mcandre/tinyrick)
