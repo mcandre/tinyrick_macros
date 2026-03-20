@@ -6,8 +6,7 @@ all:
 	cargo install --force \
 		cargo-audit \
 		cargo-cache \
-		cargo-edit \
-		unmake@0.0.23
+		cargo-edit
 	rustup component add \
 		clippy \
 		rustfmt

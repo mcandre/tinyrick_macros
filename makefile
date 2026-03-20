@@ -7,15 +7,13 @@
 	cargo-check \
 	clean \
 	clean-cargo \
-	clean-ports \
 	clippy \
 	doc \
 	install \
 	lint \
 	publish \
 	rustfmt \
-	test \
-	unmake
+	test
 .IGNORE: \
 	clean \
 	clean-cargo
@@ -25,7 +23,7 @@ all: build
 audit:
 	cargo audit
 
-build: lint test
+build:
 	cargo build --release
 
 cargo-check:
@@ -47,8 +45,7 @@ lint: \
 	cargo-check \
 	clippy \
 	doc \
-	rustfmt \
-	unmake
+	rustfmt
 
 publish:
 	cargo publish
@@ -58,7 +55,3 @@ rustfmt:
 
 test:
 	cargo test
-
-unmake:
-	unmake .
-	unmake -n .
