@@ -1,39 +1,59 @@
-# OVERVIEW
+# DEVELOPMENT
 
-tinyrick_models' own compilation process is compatible with standard `cargo`. We wrap some common workflows with `build` tasks for convenience.
+tinyrick_models follows standard, cargo based operations for compiling and unit testing Rust code.
+
+For advanced operations, such as linting, we further supplement with some software industry tools.
 
 # BUILDTIME REQUIREMENTS
 
-* POSIX compliant [make](https://pubs.opengroup.org/onlinepubs/9799919799/utilities/make.html)
-* [Rust](https://www.rust-lang.org/en-US/) 1.91.0+
+* [make](https://pubs.opengroup.org/onlinepubs/9799919799/utilities/make.html)
+* [Rust](https://www.rust-lang.org/en-US/)
 * Provision additional dev tools with `make -f install.mk`
 
 ## Recommended
 
-* a UNIX-like environment (e.g. [WSL](https://learn.microsoft.com/en-us/windows/wsl/))
-* [ASDF](https://asdf-vm.com/) 0.18 (run `asdf reshim` after provisioning)
-* [direnv](https://direnv.net/) 2
+* [asdf](https://asdf-vm.com/)
 
-# SECURITY AUDIT
+## Postinstall
 
-```console
-$ make audit
+Register `~/.cargo/bin` to `PATH` environment variable.
+
+# TASKS
+
+We automate engineering tasks.
+
+## Build
+
+```sh
+make
 ```
 
-# BUILD: LINT, DOC, COMPILE, and TEST
+## Security Audit
 
-```console
-$ make [build]
+```sh
+make audit
 ```
 
-# PUBLISH
+## Lint
 
-```console
-$ make publish
+```sh
+make lint
 ```
 
-# CLEAN
+## Test
 
-```console
-$ make clean
+```sh
+make test
+```
+
+## Publish Crate
+
+```sh
+make publish
+```
+
+## Clean Workspace
+
+```sh
+make clean
 ```
