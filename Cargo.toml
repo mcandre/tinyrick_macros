@@ -18,9 +18,9 @@ exclude = [
 
 [dependencies]
 ctor = "1.0.13"
-proc-macro2 = "1.0.103"
+proc-macro2 = "1.0.107"
 quote = "1.0.42"
-syn = { version = "2.0.111", features = ["full"] }
+syn = { version = "3.0.3", features = ["full"] }
 tinyrick_models = "0.0.3"
 
 [lib]
