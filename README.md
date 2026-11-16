@@ -1,6 +1,6 @@
 # tinyrick_macros: proc macros for scheduling development tasks
 
-[![Crates.io Downloads (recent)](https://img.shields.io/crates/dr/tinyrick_macros?label=crate%20downloads)](https://crates.io/crates/tinyrick_macros) [![docs.rs](https://img.shields.io/docsrs/tinyrick_macros)](https://docs.rs/tinyrick_macros/latest/tinyrick_macros/) [![Test](https://github.com/mcandre/tinyrick_macros/actions/workflows/test.yml/badge.svg)](https://github.com/mcandre/tinyrick_macros/actions/workflows/test.yml) [![license](https://img.shields.io/badge/license-BSD-0)](LICENSE.md)
+[![Crate Downloads](https://badgen.net/crates/d/tinyrick_macros?label=crate+downloads&icon=rust)](https://crates.io/crates/tinyrick_macros) [![API Docs](https://badgen.net/static/docs/API/3eca2a?icon=docs.rs)](https://docs.rs/tinyrick_macros/latest/tinyrick_macros/) [![CI/CD](https://badgen.net/github/checks/mcandre/tinyrick_macros?icon=github)](https://github.com/mcandre/tinyrick_macros/actions) [![License](https://badgen.net/static/license/BSD/ab2b29?icon=freebsd)](LICENSE.md)
 
 # ABOUT
 
